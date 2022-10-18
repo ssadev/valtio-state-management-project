@@ -18,6 +18,7 @@ export default function PasswordInput() {
       <input
         type="password"
         className="form-control"
+        placeholder="Enter Password"
         id="exampleInputPassword1"
         name="password"
         value={snap.password}

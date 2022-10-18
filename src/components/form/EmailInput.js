@@ -18,6 +18,7 @@ export default function EmailInput() {
       <input
         type="text"
         name="email"
+        placeholder = "Enter your Email"
         className="form-control"
         id="exampleInputEmail1"
         aria-describedby="emailHelp"
