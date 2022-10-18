@@ -25,9 +25,7 @@ export default function EmailInput() {
         onChange={(e) => handleFormInput(e)}
         value={snap.email}
       />
-      <div id="emailHelp" className="form-text">
-        We'll never share your email with anyone else.
-      </div>
+      
     </div>
   );
 }
